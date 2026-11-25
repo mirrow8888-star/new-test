@@ -1,0 +1,16 @@
+# 多策略 RAG 文件問答（網頁版）· LINE / Telegram / Email 投放
+# 安裝： pip install -r requirements.txt
+# 執行： streamlit run rag_web.py
+#
+# Email 以 Resend REST API 寄送（使用 requests），不需另外安裝 resend 套件。
+streamlit>=1.40
+groq>=0.30
+chromadb>=1.0,<2
+sentence-transformers>=3.0
+torch
+pypdf>=5.0
+python-docx>=1.1
+scikit-learn>=1.5
+numpy
+line-bot-sdk>=3.0
+requests>=2.31
